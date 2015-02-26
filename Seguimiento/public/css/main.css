@@ -1,0 +1,121 @@
+html, body {margin: 0;padding: 0;width: 100%;max-width: 100%;height: 100%;}
+header {margin: 0 auto;width: 70%;height: auto;}
+header .encabezado {width: 100%;height: 160px;}
+nav {margin: 0 auto;width: 80%;height: 38px;margin-bottom: 5px;border-radius: 10px;}
+#menubar{background-color: #B40431;list-style:none;width:auto;position:relative;display:block;height:36px;}
+#menubar li{float:left;display:block;position:relative;}
+#menubar li a{color:#fff;text-decoration:none;font-family:Helvetica, Arial, sans-serif;font-size:14px;line-height:1.3em;padding:10px 14px 8px 16px;display:block;}
+#menubar li ul{width:120px ;background:#F8F8F8;border:1px #ccc solid;display:none; position:absolute;z-index:999;margin-top:0px;}
+#menubar li ul li{width:auto;list-style:none;display:block;}
+#menubar li ul li a{color:#21759b;font-size:14px;line-height:1.3em;display:block;font-weight:normal;padding:8px;}
+#menubar li ul li a:hover{background-color:#FFF;color:#444;text-decoration:underline;}
+#menubar li:hover ul{display:block;}
+#slider {width: 60%;margin: 0 auto;}
+footer {clear: both;bottom: 0;text-align: center;}
+.bottom {display: inline-block;}
+.down {position: relative;top: 29px;}
+
+/** Aqui empieza el css de la barra lateral */
+#show {
+	background-color: black;
+	position: absolute;
+	width: 120px;
+	height: 100%;
+	left: -120px;
+	/*transition: all 1s;*/
+	padding: 0;
+	margin: 0;
+}
+#show #blue {
+	position: relative;
+	left: 100px;
+	color: black;
+	background-color: #58D3F7;
+	width: 95px;
+	height: 100%;
+}
+#show #blue img {
+	position: relative;
+	left:20px;
+	transition: all 1s;
+	top: 40%;
+	opacity: .5;
+}
+
+#show:hover #blue img {
+	opacity: 0;
+}
+#show ul {
+	padding-top: 10px;
+	position: fixed;
+	top: 0;
+	width: 120px;
+	height: 100%;
+	background-color: black;
+	left: -160px;
+	top: -15px;
+	transition: all 1s;
+}
+#show ul h3 {
+	color: white;
+	margin-bottom: 40px;
+}
+#show ul li {
+	position: relative;
+	left: -10px;
+	padding-top: 6px;
+	height: 25px;
+	text-align: center;
+	cursor: pointer;
+	list-style: none;
+	margin-bottom: 2em;
+	border: 1px dashed white;
+	width: 100px;
+	transition: all .5s;
+}
+#show ul li:hover {
+	transform: translateX(8px);
+}
+#show:hover ul {
+	left: 0px;
+}
+#show ul li {
+	color: white;
+}
+
+/** Aqui termina la barra lateral*/
+
+body section {width: 100%;}
+body section #regEgresados {margin: 0 auto;width: 60%;padding: 15px;border: 1px solid lightgray;
+	box-shadow: 2px 2px 2px gray, inset 2px 2px 2px gray;}
+body section #regEgresados > h1{text-shadow: 2px 1px 1px gray;text-align: center;font-family: "serif";background-color: #084B8A;color: white;margin-bottom: 1.5em;box-shadow: 3px 3px 3px gray;}
+body section #regEgresados input[type=password], input[type=text], input[type=email], select {margin-left:0px;color:gray;border: 1px solid gray;font-family: "serif";padding: 3px;border-radius: 5px;outline: none;}
+body section #regEgresados #infoPersonal label {width: 90px;}
+body section #regEgresados #infoPersonal .personal {display: inline-block;margin-right: 10px;margin-bottom: 10px;}
+body section #regEgresados div span{background-color: #084B8A;color: white;font-weight: bold;display: block;margin-bottom: 1em;padding: 5px;padding-left: 15px;box-shadow: 2px 2px 2px gray;text-shadow: 1px 1px 1px gray;}
+body section #regEgresados label{display: block;margin-bottom: .5em;margin-top: .5em;}
+body section #regEgresados #datosEscolares .escolar {display: inline-block;margin:5px;}
+body section #regEgresados #datosEscolares .right {position: relative;left: 30px;margin-right: 10px;}
+body section #regEgresados #datosEscolares .margen {margin-right: 25px;}
+body section #regEgresados #datosEscolares .left {width: 190px;}
+body section #regEgresados #seccion3 label {margin-right: 10px;}
+body section #regEgresados #seccion3 .lineal{display: inline-block;}
+body section #regEgresados #infoLaboral .lineal{display: inline-block;margin-right: 1em;}
+body section #regEgresados #infoLaboral .separador{margin-bottom: 10px;}
+body section #regEgresados #infoLaboral .top{margin-top: 1.5em;}
+.separador{margin-right: 30px;margin-bottom:30px;margin-top: 10px;}
+body section #regEgresados #datosEscolares, #seccion3, #infoLaboral {position: relative;display: none;}
+body section #regEgresados #infoLaboral {position: relative;padding-top: 20px;}
+body section #regEgresados #datosEscolares {top: -1em;}
+body section #regEgresados #seccion3 {top: -2em;}
+body section #regEgresados #infoLaboral {top: -3em;}
+input[type=button] {background-color: white;outline: none;border: 1px solid gray;padding: 5px;font-family: "Times New Roman";border-radius: 10px;box-shadow: 1px 1px 1px black, inset 1px 1px 1px black;transition: all 1s;}
+body section #contacto {width: 40%;margin: 0 auto;}
+body section #contacto input {width: 70%;}
+body section #acceso {
+	margin: 0 auto;
+	width: 35%;
+	padding: 10px;
+	border: 1px solid red;
+
+}

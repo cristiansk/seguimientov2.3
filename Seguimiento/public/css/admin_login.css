@@ -1,0 +1,57 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #f3f3f3;
+}
+
+body section #admin_login {
+	position: relative;
+	top: 100px;
+	margin: 0 auto;
+	padding: 10px;
+	width: 30%;
+	height: auto;
+	border: 1px dashed gray;
+}
+
+body section #admin_login > h1 {
+	text-align: center;
+}
+
+body section #admin_login label {
+	display: inline-block;
+	padding: 5px;
+	width: 100px;
+	text-align: right;
+	margin: 5px;
+}
+
+body section #admin_login input[type=text], input[type=password] {
+	padding: 5px;
+	border-radius: 5px;
+	outline: none;
+	margin-left: 15px;
+	border: 1px solid gray;
+	width: 230px;
+}
+
+body section #admin_login input[type=submit]{
+	margin-top: 1em;
+	width: 100px;
+	height: 25px;
+	border-radius: 15px;
+	border: 1px solid gray;
+	outline: none;
+	cursor: pointer;
+	background-color: #d3d3d3;
+	transition: all .5s;
+}
+body section #admin_login input[type=submit]:hover {
+	background-color: #b3b3b3;
+}

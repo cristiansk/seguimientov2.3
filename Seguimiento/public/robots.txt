@@ -1,0 +1,12 @@
+# www.robotstxt.org/
+
+# Allow crawling of all content
+User-agent: *
+Disallow:
+
+*Sesiones (Usuario y Administrativo)
+*Notificaciones
+*Generar excel con filtro de informacion
+
+*Agregar clave y utilizar correo electronico para acceder a la informacion registrada
+*Permitir modificar informacion mediante una sesion para los usuarios registrados
